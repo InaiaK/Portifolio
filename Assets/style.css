@@ -1,5 +1,28 @@
 *{
-    background-color: #D1ABAD;
     font-family: 'Lobster', cursive, monospace;
+}
+body{
+    background-color: #D1ABAD;
+}
+
+header{
+       background-color: #AA9ABA
+}
+
+h1{
+       font-size: 30px;
+}
+
+ul{
+    font-size: 25px;
+    text-align: right;
+}
+
+li{
+    margin-inline: 10px;
+    display: inline;
+}
+div{
+    background-image: url(file:///C:/Users/Owner/mod3/Unit02-HW-Portifolio/Assets/back%20img.webp);
 }
 
