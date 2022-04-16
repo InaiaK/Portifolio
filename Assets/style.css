@@ -1,95 +1,90 @@
-*{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
-    }
-    
-body{
-    background-color: rgba(4, 14, 37, 0.39)
-    }
-
-    a{
-        background-color: black;
-        color: aliceblue;
-    }
-
-.header{
-float: center;
-width: 100%;
-margin-top: -40px;
-display:inline-flexbox;
-flex-wrap: wrap;
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1{
+body{
+    background-color: white;
+}
+
+a {
     background-color: black;
     color: aliceblue;
-    text-align: left;
-    width: 100%;
+}
+
+
+.header {
+    padding-top: 17%;
+    background-image: url("header.jpeg");    
+    background-blend-mode: multiply;
+    background-size: cover;
+    float: center;
+}
+
+h1 {
+    color: rgb(13, 13, 14);
+    text-align: center;
     font-size: 75px;
-    margin-right: -6%;
-    }
-
-#img-1{
- width: 100%;
- height: 58%;
- opacity: 33%;
- margin-top: -18%;
- background-size:cover;
- display: flex;
- flex-wrap: wrap;
- float: center;
 }
 
-nav  ul{
-color: aliceblue;
-font-size: 30px;
-text-align: center;
-list-style-type: none;
-display: inline-flexbox;
-margin-top: -4%;
-margin-right: 0%;
+#img-1 {
+    width: 100%;
+    height: 58%;
+    opacity: 33%;
+    margin-top: -18%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    float: center;
 }
 
-li{
+nav ul {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+    display: inline-flexbox;
+}
+
+li {
     display: inline;
     text-align: right;
-    }
+}
 
-aside{
-    color:white;
+aside {
+    color: white;
     padding: -13px;
     clear: both;
     float: right;
     width: 40%;
     height: 150%;
-           }
+}
 
-.aside{
+.aside {
     justify-content: right;
     justify-items: flex-start;
 }
 
 
-aside #img-2{
-border-radius: 200%;
-width: 40%;
-margin-left: 23%;
-display: flex;
+aside #img-2 {
+    border-radius: 200%;
+    width: 40%;
+    margin-left: 23%;
+    display: flex;
 }
 
-.aboutme h2{
+.aboutme h2 {
     font-size: 40px;
     background-color: aliceblue;
-    color:rgba(83, 106, 156, 0.39);
+    color: rgba(83, 106, 156, 0.39);
     text-align: left;
-   
+
 }
 
 
-.aboutme p{
+.aboutme p {
     font-size: 25px;
     font-style: oblique;
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
     display: none;
 
@@ -97,63 +92,64 @@ display: flex;
 
 .aboutme:hover p {
     display: block;
-    
+
 }
-.contact{
+
+.contact {
     box-sizing: border-box;
     border: hidden;
 }
 
-.contact h2{
+.contact h2 {
     font-size: 40px;
     font-style: italic;
     background-color: aliceblue;
-    color:rgba(83, 106, 156, 0.39);
+    color: rgba(83, 106, 156, 0.39);
     text-align: left;
-    
+
 
 }
 
-.contact p{
+.contact p {
     text-align: left;
     font-size: 20px;
     font-style: italic;
     background-color: aliceblue;
-    color:black;
+    color: black;
 }
 
-form{   
+form {
     text-align: left;
     font-size: 20px;
-    display:flexbox;
-    
+    display: flexbox;
+
 }
 
-.section{
+.section {
     width: 50%;
     display: inline-block;
     margin-left: 2px;
     flex-wrap: wrap;
 }
 
-.work{
+.work {
     box-sizing: border-box;
-    border-style:hidden;
+    border-style: hidden;
 }
 
-.work h2{
+.work h2 {
     text-align: left;
     font-size: 40px;
     font-style: italic;
     background-color: aliceblue;
-    color:rgba(83, 106, 156, 0.39);
+    color: rgba(83, 106, 156, 0.39);
 
 }
 
-.work p{
+.work p {
     font-size: 25px;
     font-style: oblique;
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
     padding: 10px;
     display: none;
@@ -162,29 +158,29 @@ form{
 
 .work:hover p {
     display: block;
-    
+
 }
 
-#img-3{
+#img-3 {
     width: 50%;
     margin-left: 23%;
     border-radius: 20%;
-    
+
 }
 
 
-.futurework h2{
+.futurework h2 {
     text-align: left;
     font-size: 40px;
     font-style: italic;
     background-color: aliceblue;
-    color:rgba(83, 106, 156, 0.39);
+    color: rgba(83, 106, 156, 0.39);
 }
 
-.futurework p{
+.futurework p {
     font-size: 25px;
     font-style: oblique;
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
     padding: 10px;
     display: none;
@@ -193,32 +189,33 @@ form{
 
 .futurework:hover p {
     display: block;
-    
+
 }
-#img-5{
+
+#img-5 {
     width: 50%;
     margin-left: 23%;
     border-radius: 20%;
- }
-
-.resume{
-    box-sizing: border-box;
-    border:hidden;
 }
 
-.resume h2{
+.resume {
+    box-sizing: border-box;
+    border: hidden;
+}
+
+.resume h2 {
     text-align: left;
     font-size: 40px;
     font-style: italic;
     background-color: aliceblue;
-    color:rgba(83, 106, 156, 0.39);
+    color: rgba(83, 106, 156, 0.39);
 
 }
 
-.resume p{
+.resume p {
     font-size: 25px;
     font-style: oblique;
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
     padding: 10px;
     display: none;
@@ -227,32 +224,35 @@ form{
 
 .resume:hover p {
     display: block;
-    
+
 }
 
-#img-4{
+#img-4 {
     width: 50%;
     margin-left: 23%;
     border-radius: 20%;
- }
+}
 
 
 
 
-footer h2{
+footer h2 {
     margin-top: 10%;
     font-size: 15px;
     text-align: center;
     font-style: oblique;
-    color:black;
+    color: black;
     background-color: aliceblue;
     display: flex;
     flex-direction: wrap;
-    
+
 }
 
-@media  screen and ( max-width: 770px){
+@media screen and (max-width: 800px) {
+
     .header,
-    h1 , nav{flex-direction: column;}
+    h1,
+    nav {
+        flex-direction: column;
+    }
 }
-    
