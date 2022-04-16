@@ -1,15 +1,13 @@
 ## Unit02-HW-Portifolio
 
 ## I'm currently FULLSTACK student. 
--Creating my first Portifolio.
-
-# Mock-Up
-
-![portfolio demo](file:///C:/Users/Owner/mod3/Unit02-HW-Portifolio/index.html)
-![portifolio screenshot ](file:///C:/Users/Owner/mod3/Unit02-HW-Portifolio/Assets/screenshot-vscode.jpeg)
+-Portifolio.
 
 ## Contact Me
-E-mail: inaiakenia15@gmail.com
+
+E-mail: inaia5martin@gmail.com
+Slack: @InaiaK
+GitHub:InaiaK
 
 
 
